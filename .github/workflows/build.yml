@@ -393,7 +393,7 @@ jobs:
           
       - name: Detect ExampleMod Changed Files
         id: changed-files-examplemod
-        uses: tj-actions/changed-files@v18.4
+        uses: tj-actions/changed-files@v41
         with:
           files: |
             ExampleMod
@@ -406,7 +406,7 @@ jobs:
           
       - name: Detect patches Changed Files
         id: changed-files-patches
-        uses: tj-actions/changed-files@v18.4
+        uses: tj-actions/changed-files@v41
         with:
           files: |
             patches
